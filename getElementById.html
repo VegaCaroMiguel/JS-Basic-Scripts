@@ -14,10 +14,26 @@
     </div>
 
     <div style="text-align: center;">
-        <button onclick="document.getElementById('LoremIpsum').style.display='none'">Hide</button>
-        <button onclick="document.getElementById('LoremIpsum').style.display='block'">Display</button>
+        <button onclick="Hide()">Hide</button>
+        <button onclick="Display()">Display</button>
+        <button onclick="changeFont()">Italic Font</button>
 
     </div>
 
+
+    <script>
+        function Hide(){
+            var element = document.getElementById('LoremIpsum');
+            element.style.display='none';
+        }
+        function Display(){
+            var element = document.getElementById('LoremIpsum');
+            element.style.display='block';
+        }
+        function changeFont(){
+            var element = document.getElementById('LoremIpsum');
+            element.style.fontStyle='italic'; 
+        }
+    </script>
 </body> 
 </html>
