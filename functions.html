@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta space information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tab Title -->
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Text Change Function</h1>
+        <p id="lorem-ipsum">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos facilis suscipit quae accusamus molestias ipsam quidem, dolorum ut, aut ipsa vel quis soluta quam tempore. Deserunt similique obcaecati accusantium.</p>
+    </div>
+    <div style="text-align: center;">
+        <button onclick="changeText()">Change Text</button>
+    </div>
+    
+    <script>
+        function changeText(){
+            var element = document.getElementById('lorem-ipsum').innerHTML='Text Changed'
+        }
+    </script>
+</body>
+</html>
