@@ -1,2 +1,4 @@
-document.write(5 + 6)
+function onClickWrite(){
+    element = document.write(5 + 7); 
+}
 
