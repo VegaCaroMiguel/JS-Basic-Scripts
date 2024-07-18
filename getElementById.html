@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>Testing the: .getElementById() Method in JS</h1>
+    <div style="text-align: center;">
+        <h1>Hide and Display</h1>
+    </div>
+    <div style="text-align: center;">
 
-    <p id="LoremIpsum">Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Qui dignissimos doloremque ipsum. Aspernatur
-         molestias nam voluptatem, mollitia a minima quis
-          deleniti modi quibusdam labore sunt, corporis 
-          eveniet natus, dolorem voluptates?</p>
+        <p id="LoremIpsum" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Qui dignissimos doloremque ipsum. Aspernatur
+            molestias nam voluptatem, mollitia a minima quis
+            deleniti modi quibusdam labore sunt, corporis 
+            eveniet natus, dolorem voluptates?</p>
+    </div>
 
-    <!--.getElementById() gets and html element by the identifier-->
+    <div style="text-align: center;">
+        <button onclick="document.getElementById('LoremIpsum').style.display='none'">Hide</button>
+        <button onclick="document.getElementById('LoremIpsum').style.display='block'">Display</button>
 
-    <!--.innerHTML (Replaces the text)-->
-    <!--.src (Replaces the img source root of the image)-->
-    <!--.style (Acess the styles of the html element)-->
+    </div>
 
-    <button onclick="document.getElementById('LoremIpsum').style.display='none'">Hide</button>
-    <button onclick="document.getElementById('LoremIpsum').style.display='block'">Display</button>
-
-</body>
-
-
+</body> 
 </html>
