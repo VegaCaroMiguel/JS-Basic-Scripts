@@ -1,5 +1,5 @@
 
 //Alert function
 function windowAlertMethod(){
-    window.alert(5 + 12)
+    alert(5 + 12)
 }
