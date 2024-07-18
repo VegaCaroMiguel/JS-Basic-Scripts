@@ -1,16 +1,21 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change The Light Bulb</title>
+</head>
 <body>
-    <h2 id="Header">What Can JavaScript Do ?</h2>
+    <h1 style="text-align: center;">The Light Bulb</h1>
 
-    <p> In this case JavaScript changes the src attribute of an image html element </p>
+    <div style="text-align: center;">
+        <img id="light-bulb-image"src="img/Off-light-bulb.png" alt="light-bulb">
+    </div>
 
-
-    <button onclick="document.getElementById('myImage').src='img/On-light-bulb.png'">On</button>
-    <img id="myImage" src="img/Off-light-bulb.png" alt="Off-light-bulb">
-    <button onclick="document.getElementById('myImage').src='img/Off-light-bulb.png'">Off</button>
-
-
-
+    <div style="text-align: center;">
+        <button onclick="document.getElementById('light-bulb-image').src='img/On-light-bulb.png'">On</button>
+        <button onclick="document.getElementById('light-bulb-image').src='img/Off-light-bulb.png'">Off</button>
+    </div>
     
-
 </body>
+</html>
