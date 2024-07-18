@@ -4,9 +4,20 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Change text with button</title>
 </head>
 <body>
+    <div style="text-align: center;">
+        <h1>JavaScript can change inner HTML -> text !</h1>
+    </div>
+
+    <div id="reactive-button-container" style="text-align: center;">
+        <p id="reactive-text">JavaScript can change html content dynamically</p>
+
+        <p>
+            <button onclick="document.getElementById('reactive-text').innerHTML='Changed Text'">Change Text.</button>
+        </p>
+    </div>
     
 </body>
 </html>
