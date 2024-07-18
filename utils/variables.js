@@ -38,3 +38,18 @@ let carName;
 //Variables value Assignment 
 carName = 'audi'; 
 let carName = 'bmw'; 
+
+//One Statement, Many Variables 
+let personA = "John DoeA", carNameB = 'Volvo', price= 200; 
+
+let x = 'John' + ' ' + 'Doe'; 
+
+// JavaScript Dollar Sign 
+let $ = 'Hello World'; 
+let $$$ = 2; 
+let $myMoney = 5; 
+
+// JavaScript UnderScore 
+let _lastName = 'Johnson'; 
+let _x = 2; 
+let _100 = 5; 
