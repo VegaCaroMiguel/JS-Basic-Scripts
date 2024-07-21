@@ -1,55 +1,71 @@
-//JavaScript Variables Tutorial 
+let carName = 'Volvo'; 
 
-//var: Reserverd Word for declaring variables 
-//var: function scoped 
+//Multiple variable declatarion A
+let personA = 'John Doe', carNameA = 'Audi', price= 200; 
 
-//let: Reserved Word for declaring variables 
-//let: Block Scoped 
 
-//const: Reserved Word for declaring constants 
+//Multiple variable declaration B
+let personB = 'Sophie Doe',
+carNameB = 'Mercedes', 
+priceB = '250.000';
 
-//var samples 
-var x = 5; 
-var y = 6; 
-var z = x + y; 
+//Arithmetic operators within variable declaration 
+let x = 5 + 2 + 3; 
 
-//const samples 
-const x = 5; 
-const y = 6; 
-const z = x + y; 
 
-//Mixed sample 
-const price1 = 5; 
-const price2 = 6; 
-let total = price1 + price2; 
+//String concatenation 
+let y = 'John' + ' ' + 'Doe'; 
 
-//Equal operator "="
 
-//JavaScript Data Types 
+//What happens when concatenating strings and ints 
+let z = '5' + 2 + 3 
 
-const pi = 3.14; 
-let person = 'John Doe';
-let answer = 'Yes I am!'; 
+//What happens when concatenating ints and strings 
+let w = 2 + 3 + '5'
 
-//Variables Declaring Only 
-var carName; 
-let carName; 
-
-//Variables value Assignment 
-carName = 'audi'; 
-let carName = 'bmw'; 
-
-//One Statement, Many Variables 
-let personA = "John DoeA", carNameB = 'Volvo', price= 200; 
-
-let x = 'John' + ' ' + 'Doe'; 
-
-// JavaScript Dollar Sign 
+//JavaScript Dollar sign $
 let $ = 'Hello World'; 
-let $$$ = 2; 
+let $$ = 2; 
 let $myMoney = 5; 
 
-// JavaScript UnderScore 
+//Dollar sign is not very common in JavaScript, it's used often as an 
+// alias for the main function in a JavaScript library.
+
+//JavaScript Underscore _ 
 let _lastName = 'Johnson'; 
 let _x = 2; 
 let _100 = 5; 
+
+
+//Block Scoping 
+{
+    let x = 2; 
+}
+// x can NOT be used here
+
+// var doesn't allow Block Scoping 
+{
+    var a = 10; 
+}
+// a can be used here ! 
+
+
+//LET VARIABLES: Cannot be redeclared 
+// let x = 'John Doe'
+// let x = 0 
+// This isn't allowed and will throw an error 
+
+// VAR VARIABLES: Can be redeclared 
+// var x = 'John Doe' 
+// var x = 10
+// This is allowed in JavaScript 
+
+
+
+writeCarName(); 
+
+function writeCarName(){
+    element = document.getElementById('demo'); 
+    element.innerHTML = carName; 
+}
+
