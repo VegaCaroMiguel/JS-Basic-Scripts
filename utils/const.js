@@ -46,6 +46,7 @@ const x = 10;
 
 {
     const x = 2; 
+    
     //Here x is 2 
 }
 // Here x is 10 
