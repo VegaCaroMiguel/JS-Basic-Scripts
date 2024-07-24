@@ -40,7 +40,6 @@ car.owner = 'Johnson';
 
 //We can NOT reassign an object 
 // car = {type: 'Volvo', model: '600', color: 'red', owner: 'Jhonson'}; //ERROR 
-
 // const keyword Block Scope 
 const x = 10; 
 //Here x is 10 
@@ -50,3 +49,5 @@ const x = 10;
     //Here x is 2 
 }
 // Here x is 10 
+//Redeclaring 
+
